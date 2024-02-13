@@ -1,0 +1,122 @@
+*, 
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.heading {
+  text-align: center;
+  font-weight: 20px;
+  margin-bottom: 10px;
+  font-size: 40px;
+  color: #080c5a;
+}
+
+body {
+  background: rgb(65, 60, 60);
+}
+
+.container {
+  background-color: #fff;
+  width: 40%;
+  min-width: 500px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  padding: 20px 0;
+  padding-bottom: 50px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.338);
+}
+
+.timer-display {
+  position: relative;
+  width: 92%;
+  background: #fff;
+  left: 4%;
+  font-family: 'Roboto mono', monospace;
+  color: #8c52ff;
+  font-size: 20px;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 5px;
+  box-shadow: 0 0 20px rgba(65, 5, 145, 0.25);
+}
+
+.buttons  {
+  width: 90%;
+  margin: 60px auto 0 auto;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.buttons button {
+  color: #fff;
+  border: none;
+  font-family: Arial;
+  font-size: 16px;
+  border: 2px solid rgb(69, 27, 27);
+  border-radius: 80%;
+  cursor: pointer;
+  outline: none;
+}
+
+.start-button {
+  width: 80px;
+  height: 80px;
+  background-color: #3baa16;
+}
+
+.pause-button {
+  width: 80px;
+  height: 80px;
+  background-color: #e35209;
+}
+
+.reset-button {
+  width: 60px;
+  height: 60px;
+  background-color: rgb(22, 55, 175);
+}
+
+.lap-button {
+  width: 60px;
+  height: 60px;
+  background-color: rgb(85, 85, 44);
+}
+
+.buttons button:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
+}
+
+.laps {
+  list-style: none;
+  color: rgb(164, 76, 76);
+  margin: 20px 0px 10px 20px;
+}
+
+.time-stamp {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.delete {
+  font-weight: 10px;
+  border: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.delete:hover {
+  background-color: #aba6a6;
+  cursor: pointer;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 2);
+}
